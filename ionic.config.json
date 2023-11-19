@@ -1,0 +1,7 @@
+{
+  "name": "radio_uft",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

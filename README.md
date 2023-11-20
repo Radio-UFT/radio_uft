@@ -7,7 +7,7 @@ Bem-vindo ao projeto Ionic com Angular! Este é um aplicativo móvel desenvolvid
 Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
 - [Node.js](https://nodejs.org/) (versão 18.18.0)
-- [Ionic CLI](https://ionicframework.com/docs/cli)
+- [Ionic CLI](https://ionicframework.com/docs/cli) (npm install -g @ionic/cli)
 - [Angular CLI](https://angular.io/cli)
 
 ## Instalação

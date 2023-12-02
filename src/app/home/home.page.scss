@@ -1,27 +1,95 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+ion-content {
+  --background: linear-gradient(180deg, rgba(0,84,132,1) 0%, rgba(0,105,129,1) 42%, rgba(0,137,124,1) 77%);
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+/* Styling for the ion-grid */
+ion-grid{
+  height: 100vh; 
+  display: flex; 
+  flex-direction: column
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+/* Styling for the ion-card */
+ion-card {
+  --background: white;
+  width: 70%; 
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 5%;
+  padding: 10%;
 }
 
-#container a {
-  text-decoration: none;
+/* Styling for the image inside the card */
+img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ID from lines one and two, setting margins*/
+.linha{
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+/*ID from column inside the 2º line, column with the name inside*/
+#name {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-family: RadioCanada;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13vw; 
+}
+
+
+
+/* Styling for the column with the icons in the 3º line*/
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+/* Styling for ion-icons */
+ion-icon {
+  height: 14vw; 
+  width: 14vw;
+  color: #005484;
+}
+
+/* Specific styles for the player buttom*/
+#play {
+  height: 30vw; 
+  width: 30vw;
+}
+
+
+/*Styling for the 4º line*/
+#linha4{
+  flex-grow: 1;
+  align-items: end;
+}
+
+/*Styling for social midias icons*/
+.logo {
+  height: 9vw;
+  width: 9vw;
+  color: white;
+}
+
+
+/* Media query para ajustar o layout em telas menores */
+@media screen and (max-width: 600px) {
+  ion-card {
+    width: 90%;
+    margin-top: 10%;
+  }
+  
+  h1 {
+    font-size: 6vw;
+  }
 }

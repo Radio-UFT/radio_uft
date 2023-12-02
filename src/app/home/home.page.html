@@ -1,20 +1,60 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
+  <ion-grid [fixed]="true">
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <ion-row class="linha">
+      <ion-col id="coluna1">
+        <ion-card>  
+          <img src="assets/brasaoUFT.png" alt="Logo-UFT" id="imgLogo">
+        </ion-card>
+      </ion-col>
+    </ion-row>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-row class="linha">
+      <ion-col id="name">
+        UFTFM 96,9
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-align-items-center">
+      <ion-col class="icons">
+        <ion-button fill="clear">
+          <ion-icon name="information-circle-outline" [routerLink]="['/info']"></ion-icon>
+        </ion-button >
+      </ion-col>
+      <ion-col class="icons">
+        <ion-button fill="clear">
+          <ion-icon id="play" name="play-circle-outline"></ion-icon>
+        </ion-button>
+      </ion-col>
+      <ion-col class="icons">
+        <ion-button fill="clear">
+          <ion-icon name="calendar-outline"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row id="linha4" >
+      <ion-col class="icons">
+        <ion-button fill="clear">
+          <ion-icon name="logo-youtube" class="logo"></ion-icon>
+        </ion-button >
+      </ion-col>
+      <ion-col class="icons"  >
+        <ion-button fill="clear">
+          <ion-icon name="logo-facebook" class="logo"></ion-icon>
+        </ion-button >
+      </ion-col>
+      <ion-col class="icons">
+        <ion-button fill="clear">
+          <ion-icon name="logo-twitter" class="logo"></ion-icon>
+        </ion-button>
+      </ion-col>
+      <ion-col class="icons">
+        <ion-button fill="clear">
+          <ion-icon name="logo-instagram" class="logo"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
 </ion-content>

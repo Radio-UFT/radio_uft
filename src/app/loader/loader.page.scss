@@ -1,0 +1,35 @@
+ion-content{
+    --ion-background-color: linear-gradient(180deg, rgba(0,84,132,1) 0%, rgba(0,105,129,1) 32%, rgba(0,137,124,1) 67%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container {
+    text-align: center; /* Centraliza texto */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+ion-text{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    position: static;
+    font-family: RadioCanada;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8vh; 
+    margin-top: 5%;
+}
+
+
+ion-img{
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

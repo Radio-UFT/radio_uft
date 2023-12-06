@@ -22,8 +22,8 @@
         </ion-button >
       </ion-col>
       <ion-col class="icons">
-        <ion-button fill="clear">
-          <ion-icon id="play" name="play-circle-outline"></ion-icon>
+        <ion-button fill="clear" (click)="callFunction()">
+          <ion-icon id="play" name="{{ isAudioPlaying ? 'pause-circle-outline' : 'play-circle-outline' }}" ></ion-icon>
         </ion-button>
       </ion-col>
       <ion-col class="icons">

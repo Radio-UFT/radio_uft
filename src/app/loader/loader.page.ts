@@ -14,10 +14,10 @@ export class LoaderPage implements OnInit {
 
 
   constructor(private router: Router) { 
-    // this.router = router;
-    // setTimeout(() => {
-    //   this.router.navigate(['/', 'home']);
-    // }, 1000);
+    this.router = router;
+    setTimeout(() => {
+      this.router.navigate(['/', 'home']);
+    }, 1000);
   }
 
   ngOnInit() {}
